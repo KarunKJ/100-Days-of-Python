@@ -1,0 +1,22 @@
+def my_fucntion():
+    #do this
+    #do smthg else
+    #return from my_fucntion
+
+if we return a value from function , the value will replace the function call ,
+for eg if we call output = my_function() , the returned value will be stored within the output variable
+
+This one would always start with lowercase, and also strip non alphanumeric characters:
+
+def camelCase(st):
+    output = ''.join(x for x in st.title() if x.isalnum())
+    return output[0].lower() + output[1:]
+
+this is basically how the title() function works , it will return with the first letter capitalized
+
+Docstrings
+shows a hovering menu that will explain us what our function is doing 
+Syntax : imediately after function use """ """ use 2 double quotes
+
+Print v return
+why we use return : we do this to pass this as an input to another function
