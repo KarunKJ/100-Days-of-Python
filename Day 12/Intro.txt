@@ -1,0 +1,8 @@
+Scope in Programming
+Local Scope: exists only within function , only use it inside that particular function also
+
+There is no block scope in python
+we can create variables within if or while block , that namespace is accessible outside the blocks also 
+
+how to use global variables inside functions:
+for that we will have to explicitly use global keyword behind our variable name
